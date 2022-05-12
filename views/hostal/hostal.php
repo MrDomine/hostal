@@ -31,10 +31,10 @@
                 <?php
                     for($i=0;$i<count($arrayHabitaciones);$i++){
                         if($arrayHabitaciones[$i]["huesped"]==NULL){
-                            $boton="<a href='#' class='boton btnReserva' id='reserva".$arrayHabitaciones[$i]["idreserva"]."'> Reservar </a>";
+                            $boton="<button class='btn boton btnReserva' id='reserva".$arrayHabitaciones[$i]["idreserva"]."'> Reservar </button>";
                             $dias = "";
                         } else {
-                            $boton="<a href='#' class='boton btnSalir' id='salir".$arrayHabitaciones[$i]["idreserva"]."'> Salir </a>";
+                            $boton="<button class='btn boton btnSalir' id='salir".$arrayHabitaciones[$i]["idreserva"]."'> Salir </button>";
                             $dias = $arrayHabitaciones[$i]["dias_reservado"]." dias";
                         }
 

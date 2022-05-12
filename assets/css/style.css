@@ -6,33 +6,21 @@
 }
 
 .contenedor{
-    width:80%;
-    margin:0 auto;
-}
-
-#datos{
     width:100%;
     margin:0 auto;
 }
 
-.boton{
-    color: black;
+#datos{
+    width:65%;
+    margin:0 auto;
 }
 
-.boton:hover{
-    color:black;
-    text-decoration: none;
+.boton{
+    width:100%;
 }
 
 .celdaBtn{
     text-align: center;
-    background-color: blanchedalmond;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-.celdaBtn:hover{
-    background-color: rgb(253, 218, 165);
 }
 
 .campoModal{
@@ -41,4 +29,12 @@
 
 .dias{
     text-align: center;
+}
+
+.btnReserva{
+    background-color: cornflowerblue;
+}
+
+.btnSalir{
+    background-color: darksalmon;
 }
